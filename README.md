@@ -6,6 +6,6 @@
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle=kgu090716&theme=dark)
 
 ### 현재 목표
-
+------------------
 1. 골드 달성
 2. 하루 한 문제씩 풀기
