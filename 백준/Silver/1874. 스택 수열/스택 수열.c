@@ -3,7 +3,7 @@
 int dat[10000005];
 int pos = 0;
 char res[10000005] = "";
-int arr[10000005];
+int arr[100005];
 void push(int x)
 {
     dat[pos++] = x;
