@@ -1,13 +1,14 @@
 #include <bits/stdc++.h>
-using namespace std;
 #define X first
 #define Y second
+using namespace std;
 string board[1005];
 int dist_fire[1005][1005];
 int dist_JiHoon[1005][1005];
 int R, C;
 int dx[4] = {1, 0, -1, 0};
 int dy[4] = {0, 1, 0, -1};
+int Max_JiHoon = -1;
 
 int main(void)
 {
