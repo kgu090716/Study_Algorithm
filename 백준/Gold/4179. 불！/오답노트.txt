@@ -1,0 +1,1 @@
+ // 58번째 줄에 board[nx][ny] == '#'에서 만약 board[nx][ny] == '#'를 56번째 줄에 쓰게 될 경우 nx >= R || ny >= C || nx < 0 || ny < 0를 체크하지 않아서 outofbound 일어난다!!!
