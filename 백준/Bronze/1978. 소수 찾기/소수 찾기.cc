@@ -16,8 +16,6 @@ int main(void)
         {
             if(input % j == 0)
                 c++;
-            if(c >= 3)
-                break;
         }
         if(c == 2)
             cnt++;
