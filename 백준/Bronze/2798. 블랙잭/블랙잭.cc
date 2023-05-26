@@ -13,12 +13,10 @@ int main()
         cin >> arr[i];
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = i+1; j < n; j++)
         {
-            for (int z = 0; z < n; z++)
+            for (int z = j+1; z < n; z++)
             {
-                if (i == j || j == z || z == i)
-                    continue;
                 if (arr[i] + arr[j] + arr[z] > m)
                     continue;
                 diff = m - (arr[i] + arr[j] + arr[z]);
